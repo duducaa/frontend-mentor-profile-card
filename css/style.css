@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+.cartao {
+    background-color: white;
+    border-radius: 15px;
+    width: 86%;
+    max-width: 320px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.cartao .cartao-back {
+    width: 100%;
+}
+
+.cartao .perfil {
+    border-bottom: 1px solid var(--dark-grayish-blue);
+    position: relative;
+    padding-top: 23%;
+}
+
+.cartao .avatar {
+    background-color: white;
+    border: 6px solid white;
+    border-radius: 50%;
+    top: 0;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.cartao .perfil-info {
+    color: var(--dark-grayish-blue);
+    margin-bottom: 3%;
+}
+
+.cartao .perfil-info span {
+    color: var(--very-dark-desaturated-blue);
+    font-weight: 700;
+}
+
+.cartao .cidade {
+    color: var(--dark-gray);
+    font-size: .8em;
+}
+
+.cartao .stats ul {
+    color: var(--dark-grayish-blue);
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.cartao .stats-numero {
+    color: var(--very-dark-desaturated-blue);
+    font-weight: 700;
+    padding-bottom: 8%;
+}
+
+.cartao .stats-nome {
+    font-size: .6em;
+    letter-spacing: 2px;
+}
